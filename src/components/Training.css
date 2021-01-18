@@ -1,0 +1,60 @@
+.training-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 70%;
+  margin: 75px auto;
+}
+
+.training-grid-item {
+  height: 100%;
+}
+
+.personal-training {
+  padding: 70px;
+  text-align: center;
+}
+
+.personal-training h3 {
+  font-size: 2rem;
+}
+
+.personal-training p {
+  margin: 20px auto 20px auto;
+  width: 80%;
+  font-size: 1.25rem;
+}
+
+.image4 {
+  background: url(./images/training-image4.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 250px;
+}
+
+@media screen and (max-width: 1430px) {
+  .personal-training p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 1110px) {
+  .personal-training {
+    padding: 45px;
+  }
+}
+
+@media screen and (max-width: 1110px) {
+  .personal-training {
+    padding: 25px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .training-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 20px auto;
+  }
+}

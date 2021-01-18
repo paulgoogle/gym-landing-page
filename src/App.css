@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=Droid+Serif:400");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Droid Serif;
+}
+
+body {
+  background-color: #000000;
+  color: #fff;
+}

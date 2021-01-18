@@ -1,0 +1,74 @@
+.hero-section {
+  position: relative;
+  top: 68px;
+  height: 900px;
+  background-image: url("./images/gym-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title,
+.tagline,
+.get-started {
+  font-size: 3rem;
+  position: relative;
+  top: 225px;
+  left: 150px;
+  line-height: 55px;
+  width: 70%;
+}
+
+.tagline {
+  margin-top: 30px;
+  font-size: 1.25rem;
+}
+
+.get-started {
+  height: 50px;
+  font-size: 1.5rem;
+  line-height: 0;
+  padding: 15px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #090a0c;
+  color: #fff;
+  max-width: 200px;
+}
+.get-started:hover {
+  background-color: #fff;
+  color: #090a0c;
+  transition: 0.3s ease-in;
+}
+
+@media screen and (max-width: 800px) {
+  .hero-section {
+    background-position: right;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .title,
+  .tagline,
+  .get-started {
+    top: 125px;
+    left: 30px;
+    font-size: 2.5rem;
+    width: 80%;
+  }
+  .tagline {
+    font-size: 1rem;
+  }
+
+  button.get-started {
+    font-size: 1.5rem;
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  button.get-started {
+    font-size: 1rem;
+  }
+}

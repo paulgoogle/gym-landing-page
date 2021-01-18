@@ -1,0 +1,76 @@
+.classes-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 70%;
+  margin: 40px auto 40px auto;
+}
+
+.grid-item {
+  height: 400px;
+}
+
+.class {
+  padding: 100px;
+  text-align: center;
+}
+
+.class h3 {
+  font-size: 2rem;
+}
+
+.class p {
+  margin: 20px auto 20px auto;
+  width: 80%;
+  font-size: 1.25rem;
+}
+
+.image2 {
+  background: url(./images/training-image2.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+
+.image3 {
+  background: url(./images/training-image3.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+
+@media screen and (max-width: 1300px) {
+  .class {
+    padding: 70px;
+  }
+}
+
+@media screen and (max-width: 1090px) {
+  .class {
+    padding: 40px;
+  }
+  .class.class1 {
+    padding-top: 80px;
+  }
+}
+
+@media screen and (max-width: 1090px) {
+  .class {
+    padding: 30px;
+  }
+  .class p {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .classes-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    width: 80%;
+    margin: 80px auto 40px auto;
+  }
+}
